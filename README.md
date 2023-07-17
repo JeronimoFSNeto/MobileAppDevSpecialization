@@ -1,4 +1,4 @@
-Mobile App Development Specialization
+# Mobile App Development Specialization
 Mobile App Development
 
 Bem-vindo ao repositório do curso de Especialização em Desenvolvimento de Aplicativos Móveis! Neste curso, você aprenderá as habilidades necessárias para desenvolver aplicativos para dispositivos móveis, abrangendo plataformas como Android e iOS.
