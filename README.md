@@ -3,15 +3,15 @@
 
 Bem-vindo ao repositório do curso de _Especialização em Desenvolvimento de Aplicativos Móveis_! Neste curso, você aprenderá as habilidades necessárias para desenvolver aplicativos para dispositivos móveis, abrangendo plataformas como Android e iOS.
 
-##Sobre o Curso
+## Sobre o Curso
 O objetivo deste curso é fornecer uma base sólida em programação para dispositivos móveis, abordando tópicos essenciais para criar aplicativos interativos e funcionais. O curso é projetado para estudantes e desenvolvedores que desejam entrar no mundo do desenvolvimento de aplicativos móveis ou aprimorar suas habilidades existentes.
 
-##Conteúdo
+## Conteúdo
 O repositório está organizado em pastas dedicadas para cada módulo ou tópico abordado no curso. Aqui está uma visão geral do conteúdo disponível:
 
 Introdução ao Desenvolvimento Mobile:* Uma introdução ao desenvolvimento de aplicativos móveis, conceitos básicos e uma visão geral das plataformas móveis populares.
 
-*Android Development:* Tudo o que você precisa saber para criar aplicativos para dispositivos Android, incluindo layouts, atividades, recursos e persistência de dados.
+* Android Development:* Tudo o que você precisa saber para criar aplicativos para dispositivos Android, incluindo layouts, atividades, recursos e persistência de dados.
 
 *iOS Development:* Uma introdução ao desenvolvimento de aplicativos para iOS, cobrindo a criação de interfaces de usuário, uso de bibliotecas e recursos nativos do iOS.
 
