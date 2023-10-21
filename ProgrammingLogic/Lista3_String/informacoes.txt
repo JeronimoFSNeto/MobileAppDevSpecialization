@@ -1,0 +1,110 @@
+TRABALHANDO COM charAt
+
+ método charAt() retorna o caractere especificado a partir de uma string.
+ 
+ Um inteiro entre 0 e str.length - 1. Se nenhum índice for definido, charAt() usará 0 como índice.
+ 
+ Caracteres em uma string são indexados da esquerda para a direita. O índice do primeiro caractere é 0 (zero), e o índice do último caractere em uma string declarada como stringName é stringName.length - 1. Se o índice que você fornecer estiver fora do intervalo de índices da string, JavaScript retornará uma string vazia.
+ 
+ O exemplo a seguir mostra caracteres em diferentes locais em uma string "Brave new world":
+
+ var anyString = "Brave new world";
+
+console.log("A letra no índice 0 é '" + anyString.charAt(0) + "'");
+console.log("A letra no índice 1 é '" + anyString.charAt(1) + "'");
+console.log("A letra no índice 2 é '" + anyString.charAt(2) + "'");
+console.log("A letra no índice 3 é '" + anyString.charAt(3) + "'");
+console.log("A letra no índice 4 é '" + anyString.charAt(4) + "'");
+console.log("A letra no índice 99 é '" + anyString.charAt(999) + "'");
+
+As linhas acima retornam o seguinte:
+
+
+
+A letra no índice 0 é 'B'
+A letra no índice 1 é 'r'
+A letra no índice 2 é 'a'
+A letra no índice 3 é 'v'
+A letra no índice 4 é 'e'
+A letra no índice 99 é ''
+
+---------------
+
+function func() {
+  
+    // Original string
+    var str = 'JavaScript is object oriented language';
+  
+    // Finding the character at given index 
+    var value = str.charAt(0); 
+    var value1 = str.charAt(4); 
+    document.write(value); 
+    document.write(value1);
+}
+func();
+
+Saída:
+JS
+
+https://acervolima.com/metodo-javascript-string-charat/
+
+--
+trabalhando com SLICE
+O método slice() retorna uma cópia de parte de um array a partir de um subarray criado entre as posições início e fim (fim não é incluído) de um array original. O Array original não é modificado.
+
+const animals = ['ant', 'bison', 'camel', 'duck', 'elephant'];
+
+console.log(animals.slice(2));
+// Expected output: Array ["camel", "duck", "elephant"]
+
+console.log(animals.slice(2, 4));
+// Expected output: Array ["camel", "duck"]
+
+console.log(animals.slice(1, 5));
+// Expected output: Array ["bison", "camel", "duck", "elephant"]
+
+console.log(animals.slice(-2));
+// Expected output: Array ["duck", "elephant"]
+
+console.log(animals.slice(2, -1));
+// Expected output: Array ["camel", "duck"]
+
+console.log(animals.slice());
+// Expected output: Array ["ant", "bison", "camel", "duck", "elephant"]
+
+------------------------------
+TRABALHANDO COM toLowerCase() e toUpperCase():
+
+toLowerCase()
+Uma nova string contendo o valor da string original convertido para minúsculo.
+console.log("ALFABETO".toLowerCase()); // 'alfabeto'
+
+toUpperCase()
+Uma nova string representando a string original convertida em maiúsculas.
+console.log("alfabeto".toUpperCase()); // 'ALFABETO'
+
+-------------
+String.prototype.substr()
+O método substr() retorna uma parte da string, começando no índice especificado e estendendo-se por um determinado número de caracteres posteriormente.
+
+
+const str = 'Mozilla';
+
+console.log(str.substr(1, 2));
+// Expected output: "oz"
+
+console.log(str.substr(2));
+// Expected output: "zilla"
+
+str.substr(start[, length])
+
+start
+Local para começar a extrair os caracteres.
+
+length
+Opcional. O número de caracteres a serem extraídos.
+
+
+
+
+
